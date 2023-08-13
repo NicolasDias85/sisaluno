@@ -1,6 +1,6 @@
 <?php 
 //Criar as constantes com as credencias de acesso ao banco de dados
-define('HOST', '10.70.230.53:3306');
+define('HOST', 'ceteia.guanambi.ifbaiano.edu.br:13306');
 define('USUARIO', 'sisaluno');
 define('SENHA', 'sisaluno2023');
 define('DBNAME', 'sisaluno');
