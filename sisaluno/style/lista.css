@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: lightgray;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    width: 100%;
+    background-color: #484C68;
+    color: white;
+}
+
+thead th {
+    padding: 10px 0px;
+    border-right: 1px solid white;
+
+}
+
+tbody th,
+tbody td {
+    padding: 10px 0px;
+
+
+}
+
+.inicio {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.inicio > a {
+    background-color: #484C68;
+    color: white;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 10px;
+    width: 100px;
+    display: flex;
+    margin-top: 20px;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
